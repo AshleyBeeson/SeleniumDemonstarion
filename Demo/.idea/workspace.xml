@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb95155d-dda3-47a2-8777-22cae0054701" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/CarData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTests.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo.iml" afterPath="$PROJECT_DIR$/Demo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/demo.properties" afterPath="$PROJECT_DIR$/src/main/resources/demo.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +23,7 @@
       <file leaf-file-name="SeleniumTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="612">
               <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,7 +42,7 @@
       <file leaf-file-name="CarData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/CarData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
+            <state relative-caret-position="255">
               <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="method#getDistance#0;class#CarData#0" expanded="true" />
@@ -74,79 +66,80 @@
       <file leaf-file-name="AutoTraderWebPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
                 <element signature="method#getSearchForm#0;class#AutoTraderWebPage#0" expanded="true" />
                 <element signature="method#fillOutForm#0;class#AutoTraderWebPage#0" expanded="true" />
-                <element signature="e#621#700#1" expanded="true" />
-                <element signature="e#709#788#1" expanded="true" />
-                <element signature="e#797#851#1" expanded="true" />
-                <element signature="e#860#947#1" expanded="true" />
-                <element signature="e#956#1002#1" expanded="true" />
-                <element signature="e#1011#1100#1" expanded="true" />
-                <element signature="e#1109#1157#1" expanded="true" />
-                <element signature="e#1166#1257#1" expanded="true" />
-                <element signature="e#1266#1310#1" expanded="true" />
-                <element signature="e#1319#1408#1" expanded="true" />
-                <element signature="e#1417#1461#1" expanded="true" />
-                <element signature="e#1494#1515#0" expanded="true" />
-                <element signature="e#1563#1584#0" expanded="true" />
-                <element signature="e#1655#1672#0" expanded="true" />
-                <element signature="e#1746#1764#0" expanded="true" />
-                <element signature="e#1808#1830#0" expanded="true" />
-                <element signature="e#1873#1895#0" expanded="true" />
-                <element signature="e#1949#1950#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
-                <element signature="e#2097#2144#1" expanded="true" />
-                <element signature="e#2124#2143#0" expanded="true" />
-                <element signature="e#2158#2175#0" expanded="true" />
-                <element signature="e#2200#2245#1" expanded="true" />
-                <element signature="e#2214#2244#0" expanded="true" />
-                <element signature="e#2214#2244#0" expanded="true" />
-                <element signature="e#2317#2333#0" expanded="true" />
+                <element signature="e#642#721#1" expanded="true" />
+                <element signature="e#730#809#1" expanded="true" />
+                <element signature="e#818#872#1" expanded="true" />
+                <element signature="e#881#968#1" expanded="true" />
+                <element signature="e#977#1023#1" expanded="true" />
+                <element signature="e#1032#1121#1" expanded="true" />
+                <element signature="e#1130#1178#1" expanded="true" />
+                <element signature="e#1187#1278#1" expanded="true" />
+                <element signature="e#1287#1331#1" expanded="true" />
+                <element signature="e#1340#1429#1" expanded="true" />
+                <element signature="e#1438#1482#1" expanded="true" />
+                <element signature="e#1515#1536#0" expanded="true" />
+                <element signature="e#1584#1605#0" expanded="true" />
+                <element signature="e#1676#1693#0" expanded="true" />
+                <element signature="e#1767#1785#0" expanded="true" />
+                <element signature="e#1829#1851#0" expanded="true" />
+                <element signature="e#1894#1916#0" expanded="true" />
+                <element signature="e#1977#1978#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+                <element signature="method#getMake_Model#0;class#AutoTraderWebPage#0" expanded="true" />
+                <element signature="e#2125#2172#1" expanded="true" />
+                <element signature="e#2152#2171#0" expanded="true" />
+                <element signature="e#2186#2203#0" expanded="true" />
+                <element signature="e#2228#2273#1" expanded="true" />
+                <element signature="e#2242#2272#0" expanded="true" />
+                <element signature="e#2242#2272#0" expanded="true" />
+                <element signature="e#2345#2361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="218">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#856#926#0" expanded="true" />
-                <element signature="e#856#926#0" expanded="true" />
-                <element signature="e#1104#1135#1" expanded="true" />
-                <element signature="e#1123#1134#0" expanded="true" />
-                <element signature="e#1269#1328#1" expanded="true" />
-                <element signature="e#1341#1360#0" expanded="true" />
-                <element signature="e#1341#1360#0" expanded="true" />
-                <element signature="e#1423#1441#0" expanded="true" />
-                <element signature="e#1423#1441#0" expanded="true" />
-                <element signature="e#1503#1517#0" expanded="true" />
-                <element signature="e#1503#1517#0" expanded="true" />
-                <element signature="e#1589#1610#0" expanded="true" />
-                <element signature="e#1589#1610#0" expanded="true" />
-                <element signature="e#1626#1676#1" expanded="true" />
-                <element signature="e#2335#2402#1" expanded="true" />
-                <element signature="e#2411#2492#1" expanded="true" />
-                <element signature="e#2554#2578#0" expanded="true" />
-                <element signature="e#2554#2578#0" expanded="true" />
-                <element signature="e#2670#2698#0" expanded="true" />
-                <element signature="e#2670#2698#0" expanded="true" />
-                <element signature="e#2886#2900#0" expanded="true" />
+                <element signature="e#876#946#0" expanded="true" />
+                <element signature="e#876#946#0" expanded="true" />
+                <element signature="e#1134#1165#1" expanded="true" />
+                <element signature="e#1153#1164#0" expanded="true" />
+                <element signature="e#1309#1368#1" expanded="true" />
+                <element signature="e#1381#1400#0" expanded="true" />
+                <element signature="e#1381#1400#0" expanded="true" />
+                <element signature="e#1463#1481#0" expanded="true" />
+                <element signature="e#1463#1481#0" expanded="true" />
+                <element signature="e#1543#1557#0" expanded="true" />
+                <element signature="e#1543#1557#0" expanded="true" />
+                <element signature="e#1629#1650#0" expanded="true" />
+                <element signature="e#1629#1650#0" expanded="true" />
+                <element signature="e#1666#1716#1" expanded="true" />
+                <element signature="e#2385#2452#1" expanded="true" />
+                <element signature="e#2461#2542#1" expanded="true" />
+                <element signature="e#2604#2628#0" expanded="true" />
+                <element signature="e#2604#2628#0" expanded="true" />
+                <element signature="e#2720#2748#0" expanded="true" />
+                <element signature="e#2720#2748#0" expanded="true" />
+                <element signature="e#2936#2950#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/demo.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -188,12 +181,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumGoogleSearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/demo.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/CarData.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java" />
       </list>
     </option>
   </component>
@@ -629,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491216650294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Written 2 tests slight issue with the distance select on the autotrader test">
+      <created>1491227269101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1491227269101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -671,13 +671,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4544406" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4544406" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
@@ -700,7 +700,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup commit" />
     <MESSAGE value="Basic Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Setup" />
+    <MESSAGE value="Written 2 tests slight issue with the distance select on the autotrader test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Written 2 tests slight issue with the distance select on the autotrader test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -749,40 +750,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/demo.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#856#926#0" expanded="true" />
-            <element signature="e#856#926#0" expanded="true" />
-            <element signature="e#1104#1135#1" expanded="true" />
-            <element signature="e#1123#1134#0" expanded="true" />
-            <element signature="e#1269#1328#1" expanded="true" />
-            <element signature="e#1341#1360#0" expanded="true" />
-            <element signature="e#1341#1360#0" expanded="true" />
-            <element signature="e#1423#1441#0" expanded="true" />
-            <element signature="e#1423#1441#0" expanded="true" />
-            <element signature="e#1503#1517#0" expanded="true" />
-            <element signature="e#1503#1517#0" expanded="true" />
-            <element signature="e#1589#1610#0" expanded="true" />
-            <element signature="e#1589#1610#0" expanded="true" />
-            <element signature="e#1626#1676#1" expanded="true" />
-            <element signature="e#2335#2402#1" expanded="true" />
-            <element signature="e#2411#2492#1" expanded="true" />
-            <element signature="e#2554#2578#0" expanded="true" />
-            <element signature="e#2554#2578#0" expanded="true" />
-            <element signature="e#2670#2698#0" expanded="true" />
-            <element signature="e#2670#2698#0" expanded="true" />
-            <element signature="e#2886#2900#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="method#getSearchForm#0;class#AutoTraderWebPage#0" expanded="true" />
+            <element signature="method#fillOutForm#0;class#AutoTraderWebPage#0" expanded="true" />
+            <element signature="e#642#721#1" expanded="true" />
+            <element signature="e#730#809#1" expanded="true" />
+            <element signature="e#818#872#1" expanded="true" />
+            <element signature="e#881#968#1" expanded="true" />
+            <element signature="e#977#1023#1" expanded="true" />
+            <element signature="e#1032#1121#1" expanded="true" />
+            <element signature="e#1130#1178#1" expanded="true" />
+            <element signature="e#1187#1278#1" expanded="true" />
+            <element signature="e#1287#1331#1" expanded="true" />
+            <element signature="e#1340#1429#1" expanded="true" />
+            <element signature="e#1438#1482#1" expanded="true" />
+            <element signature="e#1515#1536#0" expanded="true" />
+            <element signature="e#1584#1605#0" expanded="true" />
+            <element signature="e#1676#1693#0" expanded="true" />
+            <element signature="e#1767#1785#0" expanded="true" />
+            <element signature="e#1829#1851#0" expanded="true" />
+            <element signature="e#1894#1916#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="method#getMake_Model#0;class#AutoTraderWebPage#0" expanded="true" />
+            <element signature="e#2125#2172#1" expanded="true" />
+            <element signature="e#2152#2171#0" expanded="true" />
+            <element signature="e#2186#2203#0" expanded="true" />
+            <element signature="e#2228#2273#1" expanded="true" />
+            <element signature="e#2242#2272#0" expanded="true" />
+            <element signature="e#2242#2272#0" expanded="true" />
+            <element signature="e#2345#2361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/CarData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
+        <state relative-caret-position="255">
           <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
             <element signature="method#getDistance#0;class#CarData#0" expanded="true" />
@@ -802,49 +821,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/AutoTraderWebPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="method#getSearchForm#0;class#AutoTraderWebPage#0" expanded="true" />
-            <element signature="method#fillOutForm#0;class#AutoTraderWebPage#0" expanded="true" />
-            <element signature="e#621#700#1" expanded="true" />
-            <element signature="e#709#788#1" expanded="true" />
-            <element signature="e#797#851#1" expanded="true" />
-            <element signature="e#860#947#1" expanded="true" />
-            <element signature="e#956#1002#1" expanded="true" />
-            <element signature="e#1011#1100#1" expanded="true" />
-            <element signature="e#1109#1157#1" expanded="true" />
-            <element signature="e#1166#1257#1" expanded="true" />
-            <element signature="e#1266#1310#1" expanded="true" />
-            <element signature="e#1319#1408#1" expanded="true" />
-            <element signature="e#1417#1461#1" expanded="true" />
-            <element signature="e#1494#1515#0" expanded="true" />
-            <element signature="e#1563#1584#0" expanded="true" />
-            <element signature="e#1655#1672#0" expanded="true" />
-            <element signature="e#1746#1764#0" expanded="true" />
-            <element signature="e#1808#1830#0" expanded="true" />
-            <element signature="e#1873#1895#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2097#2144#1" expanded="true" />
-            <element signature="e#2124#2143#0" expanded="true" />
-            <element signature="e#2158#2175#0" expanded="true" />
-            <element signature="e#2200#2245#1" expanded="true" />
-            <element signature="e#2214#2244#0" expanded="true" />
-            <element signature="e#2214#2244#0" expanded="true" />
-            <element signature="e#2317#2333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="612">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -859,11 +838,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/demo.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="218">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#876#946#0" expanded="true" />
+            <element signature="e#876#946#0" expanded="true" />
+            <element signature="e#1134#1165#1" expanded="true" />
+            <element signature="e#1153#1164#0" expanded="true" />
+            <element signature="e#1309#1368#1" expanded="true" />
+            <element signature="e#1381#1400#0" expanded="true" />
+            <element signature="e#1381#1400#0" expanded="true" />
+            <element signature="e#1463#1481#0" expanded="true" />
+            <element signature="e#1463#1481#0" expanded="true" />
+            <element signature="e#1543#1557#0" expanded="true" />
+            <element signature="e#1543#1557#0" expanded="true" />
+            <element signature="e#1629#1650#0" expanded="true" />
+            <element signature="e#1629#1650#0" expanded="true" />
+            <element signature="e#1666#1716#1" expanded="true" />
+            <element signature="e#2385#2452#1" expanded="true" />
+            <element signature="e#2461#2542#1" expanded="true" />
+            <element signature="e#2604#2628#0" expanded="true" />
+            <element signature="e#2604#2628#0" expanded="true" />
+            <element signature="e#2720#2748#0" expanded="true" />
+            <element signature="e#2720#2748#0" expanded="true" />
+            <element signature="e#2936#2950#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

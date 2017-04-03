@@ -20,8 +20,8 @@ import java.util.Properties;
 
 public class BaseClass {
 
-    WebDriver webDriver;
-    static Properties properties = new Properties();
+    protected WebDriver webDriver;
+    protected static Properties properties = new Properties();
 
     @BeforeClass
     public static void beforeClass() throws IOException {
@@ -29,13 +29,13 @@ public class BaseClass {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separatorChar + "chromedriver.exe");
     }
 
-    WebDriver getWebdriver(){
+    protected WebDriver getWebdriver(){
         WebDriver driver = getDriver();
         driver.manage().window().setSize(new Dimension(1024, 768));
         return driver;
     }
 
-    WebDriver getDriver(){
+    protected WebDriver getDriver(){
         String s = properties.getProperty("browser").toLowerCase();
         if (s.equals("firefox")) {
             return new FirefoxDriver();
@@ -58,7 +58,7 @@ public class BaseClass {
         }
     }
 
-    WebElement getResult(WebDriver driver, int result){
+    protected WebElement getResult(WebDriver driver, int result){
         WebElement allResults = driver.findElement(By.cssSelector("#rso"));
         List<WebElement> resultBlocks = allResults.findElements(By.cssSelector("._NId"));
         WebElement header;

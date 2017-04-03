@@ -9,17 +9,17 @@ import java.util.List;
 
 class AutoTraderWebPage {
 
-    void goToWebpage(WebDriver webDriver){
+    public void goToWebpage(WebDriver webDriver){
         webDriver.navigate().to("http://www.autotrader.co.uk");
     }
 
-    WebElement getSearchForm(WebDriver webDriver){
+    public WebElement getSearchForm(WebDriver webDriver){
         return webDriver.findElement(By.cssSelector
                 ("#main-content > div.homepage__coverrimage--main > div.homesearchholder.cf"));
     }
 
 
-    void fillOutForm(CarData carData, WebElement searchForm) {
+    public void fillOutForm(CarData carData, WebElement searchForm) {
         WebElement postcodeInput = searchForm.findElement(By.cssSelector("#postcode"));
         WebElement distanceElement = searchForm.findElement(By.cssSelector("#radius"));
         Select distanceDropdown = new Select(distanceElement);
@@ -41,7 +41,7 @@ class AutoTraderWebPage {
 
     }
 
-    void submitForm(WebElement searchForm) {
+    public void submitForm(WebElement searchForm) {
         searchForm.findElement(By.cssSelector("#search")).click();
     }
 
