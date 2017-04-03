@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb95155d-dda3-47a2-8777-22cae0054701" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/demo.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo.iml" afterPath="$PROJECT_DIR$/Demo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java" afterPath="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,17 +21,58 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#SeleniumTest#0" expanded="true" />
+                <element signature="e#336#346#1" expanded="true" />
+                <element signature="e#331#426#0" expanded="true" />
+                <element signature="e#331#426#0" expanded="true" />
+                <element signature="e#331#426#0" expanded="true" />
+                <element signature="e#384#415#0" expanded="true" />
+                <element signature="e#384#415#0" expanded="true" />
                 <element signature="method#test#0;class#SeleniumTest#0" expanded="true" />
                 <element signature="method#tearDown#0;class#SeleniumTest#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#beforeClass#0;class#BaseClass#0" expanded="true" />
+                <element signature="e#682#755#1" expanded="true" />
+                <element signature="method#getWebdriver#0;class#BaseClass#0" expanded="true" />
+                <element signature="e#883#953#1" expanded="true" />
+                <element signature="e#917#937#0" expanded="true" />
+                <element signature="e#917#937#0" expanded="true" />
+                <element signature="e#966#985#0" expanded="true" />
+                <element signature="e#966#985#0" expanded="true" />
+                <element signature="e#1048#1066#0" expanded="true" />
+                <element signature="e#1048#1066#0" expanded="true" />
+                <element signature="e#1128#1142#0" expanded="true" />
+                <element signature="e#1128#1142#0" expanded="true" />
+                <element signature="e#1214#1235#0" expanded="true" />
+                <element signature="e#1214#1235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/demo.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +107,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/demo.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java" />
       </list>
     </option>
   </component>
@@ -153,6 +196,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,6 +437,14 @@
       <option name="presentableId" value="Default" />
       <updated>1491215515581</updated>
     </task>
+    <task id="LOCAL-00001" summary="setup commit">
+      <created>1491215999264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491215999264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -400,6 +477,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -427,14 +508,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/SeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#SeleniumTest#0" expanded="true" />
+            <element signature="e#336#346#1" expanded="true" />
+            <element signature="e#331#426#0" expanded="true" />
+            <element signature="e#331#426#0" expanded="true" />
+            <element signature="e#331#426#0" expanded="true" />
+            <element signature="e#384#415#0" expanded="true" />
+            <element signature="e#384#415#0" expanded="true" />
             <element signature="method#test#0;class#SeleniumTest#0" expanded="true" />
             <element signature="method#tearDown#0;class#SeleniumTest#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumdemo/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#beforeClass#0;class#BaseClass#0" expanded="true" />
+            <element signature="e#682#755#1" expanded="true" />
+            <element signature="method#getWebdriver#0;class#BaseClass#0" expanded="true" />
+            <element signature="e#883#953#1" expanded="true" />
+            <element signature="e#917#937#0" expanded="true" />
+            <element signature="e#917#937#0" expanded="true" />
+            <element signature="e#966#985#0" expanded="true" />
+            <element signature="e#966#985#0" expanded="true" />
+            <element signature="e#1048#1066#0" expanded="true" />
+            <element signature="e#1048#1066#0" expanded="true" />
+            <element signature="e#1128#1142#0" expanded="true" />
+            <element signature="e#1128#1142#0" expanded="true" />
+            <element signature="e#1214#1235#0" expanded="true" />
+            <element signature="e#1214#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/demo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
