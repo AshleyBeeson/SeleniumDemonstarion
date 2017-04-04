@@ -31,7 +31,6 @@ public class BaseClass {
 
     protected WebDriver getWebdriver(){
         WebDriver driver = getDriver();
-        driver.manage().window().setSize(new Dimension(1024, 768));
         return driver;
     }
 

@@ -16,7 +16,7 @@ public class SeleniumTests extends BaseClass{
         WebElement searchBar = webDriver.findElement(By.cssSelector("#lst-ib"));
         searchBar.sendKeys(properties.getProperty("search_term"));
         searchBar.sendKeys("\n");
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(2);
         WebElement result = getResult(webDriver, 0);
         result.click();
         TimeUnit.SECONDS.sleep(5);
@@ -31,7 +31,7 @@ public class SeleniumTests extends BaseClass{
         CarData carData = new CarData();
         autoTraderWebPage.fillOutForm(carData,searchForm);
         autoTraderWebPage.submitForm(searchForm);
-
+        TimeUnit.SECONDS.sleep(5);
     }
 
 
