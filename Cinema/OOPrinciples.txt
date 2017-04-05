@@ -5,5 +5,5 @@ Inheritence is where one object inherits the values of its parent. i.e. We can d
 
 Polymorphism is the ability to make an object have control of its data and how it used i.e. you could have a shape and it could have a Draw() method but what type of shape you declared when instantiated the variable.
 
-Abstraction is used to strip an object down to its core code to allow for a decrease in complexity and an increase in effieciency. 
+Abstraction is used to strip an object down to its core code to allow for a decrease in complexity and an increase in effieciency. i.e. On a mobile phone you are shown the buttons you can press but not what happens.
 
