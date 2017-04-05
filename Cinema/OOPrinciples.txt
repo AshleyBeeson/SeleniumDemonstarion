@@ -1,0 +1,9 @@
+
+Encapsulation is used to protect variables within a system so that you have to access them via specific methods. i.e. If you declare a variable private it can now only be accessed by any methods that are created specifically for it commonly known as getters and setters. 
+
+Inheritence is where one object inherits the values of its parent. i.e. We can define a vehicle as something that has an engine, some wheels and a fuel tank. As part of this a car is a type of vehicle as it shares the same properties but also has a boot. We could also say a motorcycle is a vehicle but isn't like a car but it shares similar things. 
+
+Polymorphism is the ability to make an object have control of its data and how it used i.e. you could have a shape and it could have a Draw() method but what type of shape you declared when instantiated the variable.
+
+Abstraction is used to strip an object down to its core code to allow for a decrease in complexity and an increase in effieciency. 
+
